@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">만나프로젝트</string>
+    <string name="mainText">만나 프로젝트</string>
+    <string name="userPassword">Password</string>
+    <string name="loginButton">로그인</string>
+    <string name="id">ID</string>
+    <string name="listButton">리스트불러오기</string>
+    <string name="itemimage">itemImage</string>
+    <string name="autoLoginText">자동로그인</string>
+</resources>

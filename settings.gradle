@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven {
+            url 'http://dev.manna-planet.com:30008/maven'
+            allowInsecureProtocol = true }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "만나프로젝트"
+include ':app'
